@@ -13,18 +13,18 @@
 // limitations under the License.
 
 /**
- * Adds a random greeting to the page.
+ * Adds a random fact to the page.
  */
-function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+function addRandomFact() {
+  const facts =
+      ['My favorite color is royal blue', 'My favorite hot sauce is Tapatio', 'My favorite food is steak burrito', 'I love spicy food', 'I am the only daughter out of 3'];
 
   // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  const fact = facts[Math.floor(Math.random() * facts.length)];
 
   // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  const factContainer = document.getElementById('fact-container');
+  factContainer.innerText = fact;
 }
 
 function randomizeImage() {
@@ -36,8 +36,7 @@ function randomizeImage() {
   imgElement.src = imgUrl;
   imgElement.width = "300" 
   imgElement.height = "300";
-    
- const imageContainer = document.getElementById('random-image-container');
+  const imageContainer = document.getElementById('random-image-container');
 
   // Remove the previous image.
   imageContainer.innerHTML = '';

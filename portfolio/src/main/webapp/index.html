@@ -3,80 +3,101 @@
   <head>
     <meta charset="UTF-8">
     <title>Arlet's Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body style="font-family:Georgia, 'Times New Roman', Times, serif;background-color:powderblue;
-  border:3px;border-style:groove;border-color:steelblue;">
+  <div id="first_page">
+  <body>
     <div id="content">
-      <h1 style="color:blue;font-family:cursive;font-size:300%;">Arlet's Portfolio</h1>
-      <image src="/images/IMG_2016.jpg" width="350" height="350">
-      <p>This is my portfolio. I hope you <i>enjoy</i>!</p>
-      <p style= "color:royalblue">My name is Arlet Miranda. I was born and raised by a single mother in San Jose, CA. 
+
+    <div id="h1_">
+    <h1>Arlet's Portfolio</h1>
+    </div>    
+
+    <image src="/images/IMG_2016.jpg" width="350" height="350">
+
+    <p>This is my portfolio. I hope you <i>enjoy</i>!</p>
+
+    <div id="intro">
+    <p>My name is Arlet Miranda. I was born and raised by a single mother in San Jose, CA. 
           I am a sophomore at UC Berkeley. I am currently residing in on-campus dorms. I love running and playing 
           the bass guitar. Fun facts: My favorite animal are pigs &#128055; and I have a pet hamster named S'mores. </p>
+    </div>
 
-          <h2 style="color:darkgoldenrod">My <a href= "random.html" <strong>pet</strong></a> gallery! &#128057; (Click on 'pet' for a treat!)</h2>
-    <p style="color:peru">Meet S'mores. First picture I have at her at the pet shop. </p>      
+    <h2>My <a href= "random.html" <strong>pet</strong></a> gallery! &#128057; (Click on 'pet' for a treat!)</h2>
+    
+    <div id="peru_">
+    <p>Meet S'mores. First picture I have at her at the pet shop. </p>      
+    </div>
+    
     <image src="/images/IMG_1485.JPG" width="350" height="350">
+    
+    <div id="tur"> 
+    <p>My <a href="www.linkedin.com/in/arlet-miranda">LinkedIn</a>.</p>
+    </div>
 
-      <p style="color:darkturquoise">My <a href="www.linkedin.com/in/arlet-miranda">LinkedIn</a>.</p>
-      <p style="color:darkmagenta">My <a href="https://github.com/miranda-arl">GitHub</a>.</p>
+    <div id="mag">
+    <p>My <a href="https://github.com/miranda-arl">GitHub</a>.</p>
+    </div>
 
-      <p style="color:red"><strong>Click here to get a random message:</strong></p>
-      
-      <button style="color:crimson; font-family: fantasy;" onclick="addRandomGreeting()">Hello</button>
-      
-      <div id="greeting-container"></div>
+    <div id="red_">
+    <p><strong>Click here to learn a random fact about me:</strong></p>
+    </div>
+
+    <div id="buttons">
+    <button onclick="addRandomFact()">Choose me!</button>
+    </div>
+    <div id="fact-container"></div>
 
     <h3><strong>Project I have worked on:</strong></h3>
     <ul>
         <h4><u>Stress Redress (May 2019)</u>:</h4>
-    <li>
+        <li>
         An app which aims to reduce stress; 
         implemented in Swift.
-    <ul>
-        <li>Learned how to make a business proposal and design an app from scratch</li>
-        <li>Semi-quarter finalist for NFTE (Network for Teaching Entrepreneurship) 
+        <ul>
+            <li>Learned how to make a business proposal and design an app from scratch</li>
+            <li>Semi-quarter finalist for NFTE (Network for Teaching Entrepreneurship) 
             for their most high-profile business plan competition</li>
-    </ul>
-    </li>
-    <br>
-    <image src="/images/StressRedress.jpg" width="450" height="350">
+        </ul>
+        </li>
+        <br>
+        <image src="/images/StressRedress.jpg" width="450" height="350">
         
         <h4><u>Enigma Machine (Spring 2020)</u>:</h4>
-    <li>
+        <li>
         A simulator for a generalized 
         version of the Enigma machines 
         that Germany used during World War 
         II to encrypt its military communications; 
         implemented in Java.
         <ul> 
-        <li>Practiced implementing different data structures and 
+            <li>Practiced implementing different data structures and 
             taking on an object-based view of the programming problem 
             in my Data Structures course</li>
-        <li>Learned how to write test cases in order to test the correctness of my code</li>
+            <li>Learned how to write test cases in order to test the correctness of my code</li>
         </ul>
-    </li>
-    <br>
-    <image src="/images/Enigma.jpg" width="350" height="350">
+        </li>
+        <br>
+        <image src="/images/Enigma.jpg" width="350" height="350">
+
         <h4><u>Ants vs. Bees (Fall 2019)</u>:</h4>
-    <li> A tower defense game called Ants Vs. SomeBees. 
+        <li> A tower defense game called Ants Vs. SomeBees. 
         This game is inspired by PopCap Games' Plants Vs. 
         Zombies; implemented in Python.
-    <ul>
-    <li>Gained knowledge on how to combine functional and 
-        object-orientated programming paradigms in a large 
-        program in my Structure and Interpretation of Computer 
-        Programs course</li>
-    <li>Practiced debugging my code in order to find errors 
-        that kept my program from working</li>
-    </ul>
-    </li>
-    <br>
-    <image src="/images/AntsVS.Bees.jpg" width="350" height="350">
+        <ul>
+            <li>Gained knowledge on how to combine functional and 
+            object-orientated programming paradigms in a large 
+            program in my Structure and Interpretation of Computer 
+            Programs course</li>
+            <li>Practiced debugging my code in order to find errors 
+            that kept my program from working</li>
+        </ul>
+        </li>
+        <br>
+        <image src="/images/AntsVS.Bees.jpg" width="350" height="350">
     </ul>
     </div>
   </body>
+  </div>
 </html>
