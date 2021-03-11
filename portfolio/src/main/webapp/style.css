@@ -4,6 +4,67 @@
   width: 650px;
 }
 
-#greeting-container {
+#fact-container {
   margin-top: 20px;
+}
+
+#intro {
+  color:royalblue"
+}
+
+#buttons {
+  color:crimson; 
+  font-family: fantasy;
+}
+
+#peru_ {
+  color:peru;
+}
+
+#goldenrod_ {
+  color:darkgoldenrod;
+}
+
+#tur {
+  color:turquoise;
+}
+
+#mag {
+  color:darkmagenta;
+}
+
+#red_ {
+  color:red;
+}
+
+#body2_ {
+  font:cambria;
+  background-color:thistle;
+  align-items: center;
+}
+
+#large_{
+  font-size:large; 
+}
+
+#azure_ {
+    color:azure;
+}
+
+#first_page {
+  font-family:Georgia;
+  background-color:powderblue;
+  border:3px;
+  border-style:groove;
+  border-color:steelblue;
+}
+
+#h1_ {
+    color:blue;
+    font-family:cursive;
+    font-size:300%;
+}
+
+h2 {
+    color:darkgoldenrod;
 }
